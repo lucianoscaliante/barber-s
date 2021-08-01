@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style da fonte do menu da pagina*/
+.ul-menu{
+    font-size: 20px;
+}
+
+
+/*style do formulario de dentro do banner*/
+.formudentro{
+  width: 300px;
+  height: 300px;
+  background-color: #545454;
+  border: 3px solid #2c2c2c;
+  border-radius: 10px;
+}
+
+.dentro{
+  margin: 20px 20px;
+  padding-top: 15px;
+}
+
+
+/* style da action da pagina */
+.actionpage{
+    min-height: 90px;
+    width: 100%;
+    background-color: #343a40;
+    color: whitesmoke;
+    
+    
+}
+.botao{
+    width: 150px;
+}
+.imagem{
+    background-image: url('../img/bgfirst.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+/* sytle da galeria */
+
+.photo-gallery {
+  color:white;
+  background-color:#343a40;
+}
+
+.photo-gallery p {
+  color:white;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+/* style do footer da pagina */
+.footer-control{
+    background-color: #343a40;
+}
+.footer-spam{
+    background-color: black;
+}
+
+  
